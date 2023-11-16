@@ -1,0 +1,20 @@
+.results #result-table {
+    margin: 0 auto; 
+    border-collapse: collapse; 
+}
+
+.results .table-header {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+}
+.results .table-header > th {
+    padding: 12px;
+}
+
+/*один из стилей применится к строке таблицы, в зависимости от того, какой класс вырнет сервер*/
+.results .table-response-right {
+    color: #198653;
+}
+.results .table-response-wrong {
+    color: #dc3545;
+}

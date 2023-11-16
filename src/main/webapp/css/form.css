@@ -1,0 +1,155 @@
+/*Общий блок для графика и формы*/
+#image-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 20px;
+    margin: 0 15% 0px 15%;
+
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+/*График*/
+main .graph {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/*График*/
+
+
+/*Форма*/
+#choose-x {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+}
+main .x-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+
+}
+
+main .x-buttons .x-button {
+    padding: 5px;
+    width: 25%;
+    height: 25px;
+    margin: 2px 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 140, 0, 0.3);
+    color: white;
+}
+
+main .x-buttons .x-button:hover {
+    background-color: rgba(255, 140, 0, 0.5);
+}
+main .x-buttons .x-button:active {
+    background-color: rgba(255, 140, 0, 0.7);
+}
+
+main .form .Y-text {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form .Y-text .Y-text-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+
+.form .R-text .R-text-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+
+
+main .form .R-text {
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+main .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+main .form #submit-button {
+    background-color: #198653;
+    color: white;
+    border-radius: 7px;
+    border: none;
+
+    font-size: 14px;
+
+    padding: 5px;
+
+    margin-right: 10px;
+}
+main .form #submit-button:hover {
+    background-color: #1a7b4d;
+}
+main .form #submit-button:active {
+    background-color: #15633F;
+}
+
+main .form #clear-button {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 7px;
+    border: none;
+
+    font-size: 14px;
+
+    padding: 5px;
+}
+
+.tip {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+
+main .form #clear-button:hover {
+    background-color: #c32f3e;
+}
+main .form #clear-button:active {
+    background-color: #A82835;
+}
+/*Форма*/
+
+.back {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.back a {
+    color: green;
+    font-size: 24pt;
+    text-decoration: none;
+}
+.back a:hover {
+    color: green;
+}
