@@ -21,15 +21,14 @@ public class ControllerServlet extends HttpServlet {
             getServletContext().getRequestDispatcher("/area_check").forward(request, response);
 
         } catch (Exception e) {
-            response.getWriter().println(e.getMessage());
-            response.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED);
+            response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR);
         }
         response.getWriter().println("Hello");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req, resp);
+        resp.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED);
     }
 
 

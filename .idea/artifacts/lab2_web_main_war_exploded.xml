@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="lab2-web.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab2_web_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lab2-web.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.10.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="lab2-web.main/web/Web Gradle : lab2-web-1.0-SNAPSHOT.war" />
+    </root>
+  </artifact>
+</component>

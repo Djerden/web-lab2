@@ -65,7 +65,7 @@ public class AreaCheckServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        doGet(req, resp);
+        resp.sendError(HttpServletResponse.SC_METHOD_NOT_ALLOWED);
     }
 
     private boolean getResult(double x, double y, double r) {
